@@ -5,9 +5,7 @@ spring:
     url: jdbc:oracle:thin:@10.90.1.105:1521/DEV
     username: HR
   jpa:
-    properties:
-      hibernate:
-        format_sql: true
-      hibernate:
-        ddl-auto: update
-      show-sql: true
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
